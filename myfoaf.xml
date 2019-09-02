@@ -1,0 +1,35 @@
+<rdf:RDF
+      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+      xmlns:foaf="http://xmlns.com/foaf/0.1/"
+      xmlns:admin="http://webns.net/mvcb/">
+<foaf:PersonalProfileDocument rdf:about="">
+  <foaf:maker rdf:resource="#me"/>
+  <foaf:primaryTopic rdf:resource="#me"/>
+  <admin:generatorAgent rdf:resource="http://www.ldodds.com/foaf/foaf-a-matic"/>
+  <admin:errorReportsTo rdf:resource="mailto:leigh@ldodds.com"/>
+</foaf:PersonalProfileDocument>
+<foaf:Person rdf:ID="me">
+<foaf:name>Anantaa Kotal</foaf:name>
+<foaf:title>Ms</foaf:title>
+<foaf:givenname>Anantaa</foaf:givenname>
+<foaf:family_name>Kotal</foaf:family_name>
+<foaf:mbox_sha1sum>f57eb2f73ef45c70b028da94d0cb6b65b1300c4d</foaf:mbox_sha1sum>
+<!-- I added gender as an additional property to specify my gender -->
+<foaf:gender rdf:resource="female"/>
+<foaf:phone rdf:resource="tel:+1-440-233-6565"/>
+<!-- I added homepage as an additional property for my home page -->
+<foaf:homepage rdf:resource="www.linkedin.com/in/anantaa-kotal"/>
+<foaf:workplaceHomepage rdf:resource="www.linkedin.com/in/anantaa-kotal"/>
+<foaf:schoolHomepage rdf:resource="https://www.umbc.edu"/>
+<!-- I added member as an additional property for my associated lab -->
+<foaf:member rdf:resource="www.ebiquity.umbc.edu"/>
+<foaf:knows>
+<foaf:Person>
+<foaf:name>Neha Ansari</foaf:name>
+<foaf:mbox_sha1sum>dcaef433be21173242b98d392f85d04ac0299263</foaf:mbox_sha1sum></foaf:Person></foaf:knows>
+<foaf:knows>
+<foaf:Person>
+<foaf:name>Dave Smith</foaf:name>
+<foaf:mbox_sha1sum>89f8efd9c20cd275ac9c955c289e7a21b8eeda56</foaf:mbox_sha1sum></foaf:Person></foaf:knows></foaf:Person>
+</rdf:RDF>
