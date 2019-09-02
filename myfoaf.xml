@@ -16,7 +16,7 @@
 <foaf:family_name>Kotal</foaf:family_name>
 <foaf:mbox_sha1sum>f57eb2f73ef45c70b028da94d0cb6b65b1300c4d</foaf:mbox_sha1sum>
 <!-- I added gender as an additional property to specify my gender -->
-<foaf:gender rdf:resource="female"/>
+<foaf:gender>female</foaf:gender>
 <foaf:phone rdf:resource="tel:+1-440-233-6565"/>
 <!-- I added homepage as an additional property for my home page -->
 <foaf:homepage rdf:resource="www.linkedin.com/in/anantaa-kotal"/>
